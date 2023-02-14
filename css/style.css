@@ -26,7 +26,39 @@ main{
 }
 /* typo */
 /* common */
+.ms_height{
+    height: 100%;
+}
 /* header  */
+header img{
+    height: 30px;
+    max-width: 90%;
+}
+#search{
+    position: relative;
+    background-color: #e5e5e5;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+}
+#search button{
+    position: absolute;
+    border-style: none;
+    margin-top: ;
+}
+#search input{
+    width: 100%;
+    padding-left: 1.875rem;
+    border-style: none;
+    background-color: #e5e5e5;
+}
+#button-r-h button{
+    background-color: white;
+    border-style: none;
+    color: #5b5858;
+}
+#button-r-h .ms_gold-b{
+    color: #ff8f00;
+}
 /* main  */
 .ms_nav-aside{
     height: 100%;

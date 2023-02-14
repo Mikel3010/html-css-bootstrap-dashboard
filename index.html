@@ -18,14 +18,38 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="" alt="">
+        <nav class="ms_height">
+            <div class="container-fluid ms_height">
+                <div class="row align-items-center justify-content-between ms_height">
+                    <div class="col-1 col-md-2">
+                        <img class="d-md-none" src="./img/mobile-logo.png" alt="logo boolean">
+                        <img class="d-none d-md-block" src="./img/logo.svg" alt="logo boolean">
                     </div>
-                    <div class="col-8 d-flex justify-content-center">ricerca</div>
-                    <div class="col-2 d-flex justify-content-end">bottoni</div>
+                    <div id="search" class="col-10 col-md-8 rounded">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="text" placeholder="Prova a cercare:lezioni di lavarel">
+                    </div>
+                    <div id="button-r-h" class="col-1 col-md-2 d-flex justify-content-around ps-0">
+                        <div class="d-none d-md-block">
+                            <button><i class="fa-solid fa-list-ul"></i></button>
+                        </div>
+                        <div>
+                            <button class="d-none d-md-block"><i class="fa-solid fa-circle-question"></i></button>
+                        </div>
+                        <div>
+                            <button class="d-none d-md-block"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                        </div>
+                        <div class="dropdown">
+                            <button class="ms_gold-b" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Profilo</a></li>
+                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                          </div>
+                    </div>
                 </div>    
             </div>
         </nav>
