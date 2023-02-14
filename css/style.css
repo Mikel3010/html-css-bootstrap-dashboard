@@ -1,6 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+header{
+    height: 4.375rem;
+}
+main{
+    height: calc(100vh - 4.375rem);
+    width: 100%;
+}
 /* debug  */
 .ms_debug-backcolor{
     background-color: red;
@@ -8,8 +15,20 @@ body{
 }
 .ms_debug-backcolor2{
     background-color: aqua;
+    border: 1px solid black;
+}
+.ms_debug-backcolor3{
+    background-color:green;
+    border: 1px solid black;
+}
+.ms_debug-height{
+    height: 100%;
 }
 /* typo */
 /* common */
 /* header  */
 /* main  */
+.ms_nav-aside{
+    height: 100%;
+}
+
