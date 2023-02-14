@@ -1,3 +1,15 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+/* debug  */
+.ms_debug-backcolor{
+    background-color: red;
+    border: 1px solid black;
+}
+.ms_debug-backcolor2{
+    background-color: aqua;
+}
+/* typo */
+/* common */
+/* header  */
+/* main  */
