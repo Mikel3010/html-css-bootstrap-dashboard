@@ -8,26 +8,16 @@ main{
     height: calc(100vh - 4.375rem);
     width: 100%;
 }
-/* debug  */
-.ms_debug-backcolor{
-    background-color: red;
-    border: 1px solid black;
-}
-.ms_debug-backcolor2{
-    background-color: aqua;
-    border: 1px solid black;
-}
-.ms_debug-backcolor3{
-    background-color:green;
-    border: 1px solid black;
-}
-.ms_debug-height{
-    height: 100%;
-}
 /* typo */
 .aside-backgroundcolor{
     background-color: #072035;
     background-image: url(../img/sidebar-bg.png);
+}
+.main-top-bc{
+    background-color: #1b72e8;
+}
+.badge_bc{
+    background-color: #165bba;
 }
 /* common */
 .ms_height{
@@ -65,6 +55,7 @@ header img{
     color: #ff8f00;
 }
 /* main  */
+/* aside  */
 .ms_nav-aside{
     height: 100%;
 }
@@ -74,4 +65,12 @@ header img{
 }
 .ms_button-nav:hover{
     background-color: #e5e5e5;
+}
+/* main-top  */
+#main-top{
+    color: white;
+    font-size: .75rem;
+}
+#btn-canv{
+    border: 1px solid white;
 }
